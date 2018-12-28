@@ -1,0 +1,27 @@
+name: tmb_merchant_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc:
+  shared_preferences: ^0.4.2
+  qr_flutter: ^1.1.5
+  intl: ">=0.14.0"
+  transparent_image:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/blue_logo.png
+   - assets/white_logo.png
+   - assets/qr_home.png
